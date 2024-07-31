@@ -18,10 +18,15 @@ const url = 'api-proxy.php?name=MYCALL-1&what=loc'
 
 In the api-proxy.php file:
 
-Change YOUR_API_KEY to your api key obtained from [APRS.fy](https://aprs.fi/)
+Change YOUR_API_KEY to your api key obtained from [APRS.fi](https://aprs.fi/)
 ```php
 $api_key = 'YOUR_API_KEY';
 ```
+
+## Demo
+
+Try the demo here: [aprs.ok1kky.cz](https://aprs.ok1kky.cz/)
+
 
 
 
