@@ -32,6 +32,5 @@ $api_key = 'YOUR_API_KEY';
 Try the demo here: [aprs.ok1kky.cz](https://aprs.ok1kky.cz/)
 
 
-
-
+#### Support & Feedback
 
