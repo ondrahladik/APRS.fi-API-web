@@ -8,6 +8,10 @@ A simple website that uses the API from the aprs.fi server  information
 - 
 - 
 
+
+![image](image.png)
+
+
 ## Do not forget!
 In the script.js file:
 
