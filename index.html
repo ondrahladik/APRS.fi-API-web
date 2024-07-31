@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="APRS position of members of club station OK1KKY">
+    <meta name="author" content="OK1KKY">
+    <meta property="og:title" content="APRS">
+    <meta property="og:description" content="APRS position of members of club station OK1KKY">
+    <meta property="og:image" content="image/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="image/site.webmanifest">
+    <link rel="mask-icon" href="image/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="symbols/aprs-symbols.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="symbols/aprs-symbols.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>APRS</title>
+    </head>
+    <body>
+        <h4>APRS position of members of club station OK1KKY</h4>
+
+        <div class="top-right">
+            This website is powered by API from <a href="https://aprs.fi" target="_blank">APRS.fi</a>
+        </div>
+        
+        <table id="aprsTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Locator</th>
+                    <th>Time</th>
+                    <th>Last Time</th>
+                    <th>Source Call</th>
+                    <th>Destination Call</th>
+                    <th>Comment</th>
+                    <th>Path</th>
+                </tr>
+            </thead>
+            <tbody id="dataBody">
+            </tbody>
+        </table>
+
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+
+        <footer>
+             &copy; <span id="currentYear"></span> <a style="text-decoration: none; color: black;" href="https://www.ok1kky.cz" target="blank">OK1KKY.CZ</a>
+        </footer>
+
+        <script>
+            document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+        </script>
+
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="script.js"></script>
+    </body>
+    </html>
