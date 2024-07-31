@@ -1,0 +1,161 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    #map-container {
+        margin-top: 20px;
+        height: 400px;
+        width: 100%;
+    }
+
+    #map {
+        height: 100%;
+        width: 100%;
+    }
+
+    footer {
+        color: black;
+        text-align: center;
+        position: fixed;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .symbol-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 100%;
+        padding-left: 5px; 
+        padding-right: 5px; 
+    }
+
+    .symbol-letter {
+        position: absolute;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 13px;
+        color: white;
+        pointer-events: none;
+    }
+
+    .symbol-container i {
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+
+    .custom-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leaflet-attribution-flag {
+        display: none !important;
+    }
+
+    @media (max-width: 1038px) {
+        table {
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        table, th, td {
+            font-size: 10px;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+
+        th:nth-child(9), td:nth-child(9),
+        th:nth-child(10), td:nth-child(10) {
+            display: none;
+        }
+
+        .symbol-container {
+            transform: scale(0.8);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .top-right {
+            position: static;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 80%;
+        }
+
+        table {
+            width: 100%;
+            max-width: 748px;
+        }
+
+        th, td {
+            padding: 4px;
+        }
+
+        table, th, td {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #map-container {
+            height: 400px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 80%;
+        }
+
+        th:nth-child(3), td:nth-child(3),
+        th:nth-child(5), td:nth-child(5),
+        th:nth-child(7), td:nth-child(7),
+        th:nth-child(8), td:nth-child(8),
+        th:nth-child(9), td:nth-child(9),
+        th:nth-child(10), td:nth-child(10) {
+            display: none;
+        }
+
+        .symbol-container {
+            transform: scale(0.9);
+        }
+    }
