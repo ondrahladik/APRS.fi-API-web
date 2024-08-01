@@ -28,5 +28,7 @@ $api_key = 'YOUR_API_KEY';
 Try the demo here: [aprs.ok1kky.cz](https://aprs.ok1kky.cz/)
 
 
-#### Support & Feedback
+#### Supports
 
+API provides by [APRS.fi](https://aprs.fi/page/api)
+Icons provided by [aprs-symbols](https://github.com/OK-DMR/aprs-symbols)
