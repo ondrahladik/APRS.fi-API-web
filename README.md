@@ -3,13 +3,9 @@ A simple website that uses the API from the aprs.fi server  information
 
 ## Features
 
-- 
-- 
-- 
-- 
+The website can display the following information Name (Callsign), Location, Locator, Time, Last Time, Source Call, Destination Call, Comment, Path and also a map with the location of the displayed stations.
 
-
-![image](image.png)
+![image](image.jpg)
 
 
 ## Do not forget!
