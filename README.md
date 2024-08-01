@@ -31,4 +31,5 @@ Try the demo here: [aprs.ok1kky.cz](https://aprs.ok1kky.cz/)
 #### Supports
 
 API provides by [APRS.fi](https://aprs.fi/page/api)
+
 Icons provided by [aprs-symbols](https://github.com/OK-DMR/aprs-symbols)
